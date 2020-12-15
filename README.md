@@ -2,7 +2,8 @@
 
 **팀원명 : 고은비, 김성호, 김연식**
 
-[데이터베이스 생성](https://www.notion.so/0667f7fa8aae423ca1e36428e1951841)
+[데이터베이스 생성](../CreateDB.md)
+
 
 [문제 ](https://www.notion.so/f962c3755d544be2844092eb8fd76e85)
 
