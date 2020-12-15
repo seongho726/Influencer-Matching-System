@@ -11,7 +11,7 @@
 
     단순 FROM절에 테이블을 3개이상 추가 시 결과 값
 
-    ![ISSUE%201d0b8c7924524fff96d805079873e9d0/issue_q1.png](ISSUE%201d0b8c7924524fff96d805079873e9d0/issue_q1.png)
+ ![img](https://i.imgur.com/zBXfQoc.png)
 
 - **OUTER JOIN** 해결책
 
@@ -21,18 +21,18 @@
             left outer join instagram g on (i.name=g.name)
             left outer join youtube y on (i.name=y.name);
     ```
-
-    ![ISSUE%201d0b8c7924524fff96d805079873e9d0/issue_a1.png](ISSUE%201d0b8c7924524fff96d805079873e9d0/issue_a1.png)
+![img](https://i.imgur.com/IGYKpWS.png)
+ 
 
     **LEFT OUTER JOIN** 은 ****왼쪽 테이블의 모든 행과 오른쪽 테이블의 행을 비교, 결과가 없더라도 NULL값을 출력합니다. OUTER JOIN이 여러개 일치할 경우 중복 값이 나옵니다
 
 - **FK 제약**이 걸린 TABLE의 다중입력 실패
 
-    ![ISSUE%201d0b8c7924524fff96d805079873e9d0/issue_q2.png](ISSUE%201d0b8c7924524fff96d805079873e9d0/issue_q2.png)
+   ![img](https://i.imgur.com/ivo3Kwi.png)
 
 - **FK 제약조건**이 걸린 TABLE의 다중입력 해결책
 
-    ![ISSUE%201d0b8c7924524fff96d805079873e9d0/issue_a2.png](ISSUE%201d0b8c7924524fff96d805079873e9d0/issue_a2.png)
+   ![img](https://i.imgur.com/zcYW2lT.png)
 
     1. **FK 제약조건**이 있는 TABLE은 다중입력시에는 제약조건을 일시적으로 해제 해야함 
     alter table instagram disable constraint INSTAGAM_NAME_FK;
