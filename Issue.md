@@ -33,12 +33,12 @@
 - **FK 제약조건**이 걸린 TABLE의 다중입력 해결책
 
    ![img](https://i.imgur.com/zcYW2lT.png)
-
+```sql
     1. **FK 제약조건**이 있는 TABLE은 다중입력시에는 제약조건을 일시적으로 해제 해야함 
     alter table instagram disable constraint INSTAGAM_NAME_FK;
 
     2 . insert all 이 아닌 데이터 하나씩 추가 
-    ```sql
+    
     select * from dual;
     insert into instagram values ('고은비','lovely_eunbi',1500,430,100);
     insert into instagram values ('현준','strong_jun',1000,350,70);
