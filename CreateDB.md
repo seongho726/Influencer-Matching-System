@@ -1,5 +1,5 @@
 # 데이터베이스 생성
-<a href = https://www.notion.so/DB-8382db931e2048909729cf51b3c797f9</a><br>
+<a href = "https://www.notion.so/DB-8382db931e2048909729cf51b3c797f9">파일이름</a><br>
 ERD 구조를 위한 초기 기획 단계
 
 **ERD구조 [[ERDCLOUD]](https://www.erdcloud.com/d/uzPPQZ5T2vH365Hto)**
