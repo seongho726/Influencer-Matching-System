@@ -38,7 +38,7 @@
             left outer join blog b on (i.name=b.name)
     ```
 
-    ![%E1%84%86%E1%85%AE%E1%86%AB%E1%84%8C%E1%85%A6%20f962c3755d544be2844092eb8fd76e85/q1.png](%E1%84%86%E1%85%AE%E1%86%AB%E1%84%8C%E1%85%A6%20f962c3755d544be2844092eb8fd76e85/q1.png)
+  ![img](https://i.imgur.com/g7fK27h.png)
 
 - **Q2 : rownum조건을 활용해 순위 추출하기**
 
@@ -70,8 +70,9 @@
     from (select * from  influencer where channel in ('유튜브', '인스타그램') and image in ('트렌디', '호감형') and cost<= 150
     order by influence desc) where rownum <=3;
     ```
+    ![img](https://i.imgur.com/5SqMPR2.png)
 
-    ![%E1%84%86%E1%85%AE%E1%86%AB%E1%84%8C%E1%85%A6%20f962c3755d544be2844092eb8fd76e85/q2.png](%E1%84%86%E1%85%AE%E1%86%AB%E1%84%8C%E1%85%A6%20f962c3755d544be2844092eb8fd76e85/q2.png)
+  
 
 - **Q3 : inline subquery와 2중 조인을 활용한 문제[답안 도출 과정]**
 
@@ -104,6 +105,4 @@
             from instagram i, youtube y
             where insta_cost between 80 and 120 and i.name = y.name 
     );
-    ```
-
-    ![%E1%84%86%E1%85%AE%E1%86%AB%E1%84%8C%E1%85%A6%20f962c3755d544be2844092eb8fd76e85/q3.png](%E1%84%86%E1%85%AE%E1%86%AB%E1%84%8C%E1%85%A6%20f962c3755d544be2844092eb8fd76e85/q3.png)
+    ![img](https://i.imgur.com/Yn5u7sF.png)
