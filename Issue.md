@@ -24,7 +24,7 @@
 ![img](https://i.imgur.com/IGYKpWS.png)
  
 
-    **LEFT OUTER JOIN** 은왼쪽 테이블의 모든 행과 오른쪽 테이블의 행을 비교, 결과가 없더라도 NULL값을 출력합니다. OUTER JOIN이 여러개 일치할 경우 중복 값이 나옵니다
+ **LEFT OUTER JOIN** 은왼쪽 테이블의 모든 행과 오른쪽 테이블의 행을 비교, 결과가 없더라도 NULL값을 출력합니다. OUTER JOIN이 여러개 일치할 경우 중복 값이 나옵니다
 
 - **FK 제약**이 걸린 TABLE의 다중입력 실패
 
