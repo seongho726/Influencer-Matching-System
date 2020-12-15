@@ -105,4 +105,5 @@
             from instagram i, youtube y
             where insta_cost between 80 and 120 and i.name = y.name 
     );
+    ```
     ![img](https://i.imgur.com/Yn5u7sF.png)
