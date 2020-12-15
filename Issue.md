@@ -38,7 +38,8 @@
     alter table instagram disable constraint INSTAGAM_NAME_FK;
 
     2 . insert all 이 아닌 데이터 하나씩 추가 
-     select * from dual;
+    ```sql
+    select * from dual;
     insert into instagram values ('고은비','lovely_eunbi',1500,430,100);
     insert into instagram values ('현준','strong_jun',1000,350,70);
     insert into instagram values ('최지원','onevely_',235,230,35);
@@ -48,3 +49,4 @@
     insert into instagram values ('김창훈','soft_chang537',1200,300,90);
     insert into instagram values ('이정민','mins_life',15,150,30);
     insert into instagram values ('김혜경','_hyevely_',1000,450,120);
+    ```
