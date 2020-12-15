@@ -1,7 +1,6 @@
 # 데이터베이스 생성
-<a href = "https://www.notion.so/DB-8382db931e2048909729cf51b3c797f9">인플루언서</a><br>
 ERD 구조를 위한 초기 기획 단계
-
+![img](https://i.imgur.com/5jUtT34.png)
 **ERD구조 [[ERDCLOUD]](https://www.erdcloud.com/d/uzPPQZ5T2vH365Hto)**
 
 ![%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%87%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%200667f7fa8aae423ca1e36428e1951841/Untitled.png](%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5%E1%84%87%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%200667f7fa8aae423ca1e36428e1951841/Untitled.png)
